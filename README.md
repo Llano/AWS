@@ -9,7 +9,7 @@ Extract the AWS-folder into <code>Arma2Net/Addins/</code> and include <code>@Arm
 <h3>Retrieve weather information</h3>
 To retieve the current weather information from (default) Stratis, you use this code: 
 <code>_CurrentWeatherInformation = "Arma2Net.Unmanaged" callExtension "AWS";</code>
-<br/>Since the extension will return it as a string, you have to compile it first.
+<br/> Since the extension will return it as a string, you have to compile it first.
 <code>_CurrentWeatherInformation = call compile _CurrentWeatherInformation;</code>
 
 <code>_CurrentWeatherInformation</code> is a array containing multiple values:
