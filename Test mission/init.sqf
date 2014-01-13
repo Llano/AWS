@@ -14,20 +14,14 @@ while{_run == 1} do
 	skipTime -24;
 	switch (_typeOf) do
 	{
-		case "Drizzle": 
-		{
 		
-			_duration setOvercast 0.7;
-			_duration setRain 0.08;
-		};
-		
-		case "Mostly Cloudy":
+		case "partly-cloudy-day":
 		{
 			_duration setOvercast 0.4;
 			_duration setRain 0;
 		};
 		
-		case "Light Rain":
+		case "rain":
 		{
 			_duration setOvercast 0.8;
 			_duration setRain 0.2;
