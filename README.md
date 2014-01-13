@@ -13,7 +13,7 @@ To retieve the current weather information from (default) Stratis, you use this 
 <code>_CurrentWeatherInformation = call compile _CurrentWeatherInformation;</code>
 
 <code>_CurrentWeatherInformation</code> is a array containing multiple values:
-<code>["0.83", "91", "Mostly Cloudy", [2014, 1, 13, 14, 57]]</code>
+<code>["0.83", "91", "rain, [2014, 1, 13, 14, 57]]</code>
 In the order -> <code>Windspeed</code>,<code>windbearing</code>,<code>Condition</code>, and last a array containing the current date in the format <code>Year</code>,<code>Month</code>,<code>Date</code>,<code>Hour</code>,<code>Minute</code>
 
 So, to retieve what condition the current weather is, you execute:
