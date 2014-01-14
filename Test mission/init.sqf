@@ -2,7 +2,7 @@ _run = 1;
 
 while{_run == 1} do
 {
-	_weather = "Arma2Net.Unmanaged" callExtension "AWS";
+	_weather = "Arma2Net.Unmanaged" callExtension "AWS MyAPIKey,Stratis";
 	_weather = call compile _weather;
 	_typeOf = _weather select 2;
 	_windSpeed = _weather select 0;
