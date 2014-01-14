@@ -18,7 +18,7 @@ You can get your own API-key by registrating on this site https://developer.fore
 
 <code>_CurrentWeatherInformation</code> is a array containing multiple values:
 <code>["4.47", "101", "partly-cloudy-day", [2014, 1, 14, 14, 15], 0, 0,0381, 10,39, 0,7]</code>
-In the order -> <code>Windspeed</code>,<code>windbearing</code>,<code>Condition</code>, array containing the current date in the format <code>Year</code>,<code>Month</code>,<code>Date</code>,<code>Hour</code>,<code>Minute</code>, <code>Visibility</code>,<code>precipIntensity</code>,<code>Temperature</code>,<code>cloudCover</code>
+In the order -> <code>Windspeed</code>,<code>windbearing</code>,<code>Condition</code>, array containing the current date in the format [<code>Year</code>,<code>Month</code>],<code>Date</code>,<code>Hour</code>,<code>Minute</code>, <code>Visibility</code>,<code>precipIntensity</code>,<code>Temperature</code>,<code>cloudCover</code>
 
 <h4><code>Condition</code></h4> Condition will have any of the following values:
 <code>clear-day</code>, <code>clear-night</code>, <code>rain</code>, <code>snow</code>, <code>sleet</code>, <code>wind</code>, <code>fog</code>, <code>cloudy</code>, <code>partly-cloudy-day</code>, <code>partly-cloudy-night</code>
