@@ -17,7 +17,7 @@ You can get your own API-key by registrating on this site https://developer.fore
 <code>_CurrentWeatherInformation = call compile _CurrentWeatherInformation;</code>
 
 <code>_CurrentWeatherInformation</code> is a array containing multiple values:
-<code>["4.47", "101", "partly-cloudy-day", [2014, 1, 14, 14, 15], 0, 0,0381, 10,39, 0,7]</code>
+<code>["4.96", "105", "partly-cloudy-day", [2014, 1, 14, 16, 45], "0", "0.0381", "9.88", "0.32"]</code>
 In the order -> <code>Windspeed</code>,<code>windbearing</code>,<code>Condition</code>, array containing the current date in the format [<code>Year</code>,<code>Month</code>,<code>Date</code>,<code>Hour</code>,<code>Minute</code>], <code>Visibility</code>,<code>precipIntensity</code>,<code>Temperature</code>,<code>cloudCover</code>
 
 Read <a href="https://developer.forecast.io/docs/v2#options">here</a>(under "si") for more information about what unit each value is in. 
