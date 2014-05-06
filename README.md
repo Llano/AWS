@@ -3,8 +3,7 @@ AWS - Arma Weather Synchronize
 
 <h3><a href="https://developer.forecast.io/">Powered by Forecast</a></h3>
 
-This extension let you synchronize the weather in Arma with the realworld weather. Default the extension will retrieve the current weather at the island "Stratis", aka "Agios Efstratios".
-
+This extension let you synchronize the weather in Arma with the realworld weather. Default the extension will retrieve the current weather at the island "Stratis", or "Altis".
 <h3>Note: This extension requires that you have Arma2NET installed.</h3>
 Extract the AWS-folder into <code>Arma2Net/Addins/</code> and include <code>@Arma2NET</code> as a mod.
 
